@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="treeSapling" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="treeBranch_diffuse.png" relativePath="true"/>
+    <File fileId="4" filename="data/maps/textures/sosnovka/treeBranch_normal.png" relativePath="false"/>
+    <File fileId="1" filename="data/maps/textures/sosnovka/treeTrunk_diffuse.png" relativePath="false"/>
+    <File fileId="2" filename="data/maps/textures/sosnovka/treeTrunk_normal.png" relativePath="false"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="treeBranch_mat" materialId="224" ambientColor="1 1 1">
+      <Texture fileId="3"/>
+      <Normalmap fileId="4"/>
+    </Material>
+    <Material name="treeTrunk_mat" materialId="223" ambientColor="1 1 1">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="treeSapling.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Shape shapeId="1" name="treeSapling" scale="0.8 0.8 1" clipDistance="50" nodeId="228" materialIds="223" castsShadows="true" receiveShadows="true">
+      <Shape shapeId="2" name="branches" clipDistance="50" nodeId="229" materialIds="224" castsShadows="true" receiveShadows="true"/>
+      <Shape shapeId="2" name="branches" translation="-2.40712e-08 -0.230793 -1.49954e-09" rotation="-180 -87.1992 -180" clipDistance="50" nodeId="232" materialIds="224" castsShadows="true" receiveShadows="true"/>
+    </Shape>
+  </Scene>
+
+</i3D>

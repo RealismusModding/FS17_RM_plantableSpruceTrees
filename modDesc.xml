@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="37">
+    <author>Realismus Modding</author>
+    <contributors>reallogger</contributors>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Plantable Spruce Trees</en>
+        <de>Pflanzbare Fichten</de>
+        <fr>Épinettes plantables</fr>
+ </title>
+ 
+ <description>
+    <en><![CDATA[Buyable spruce tree saplings.]]></en>
+    <de><![CDATA[Kaufbare Fichtenbaum Setzlinge.]]></de>
+    <fr><![CDATA[Echantillons d'épinettes achetables]]></fr>
+ </description>
+
+ <iconFilename>icon.dds</iconFilename>
+ <multiplayer supported="true"/>
+
+ <extraSourceFiles>
+    <sourceFile filename="src/registerSpruceTrees.lua" />
+ </extraSourceFiles>
+
+ <l10n>
+ </l10n>
+
+    <storeItems>
+        <storeItem rootNode="fillablePallet" xmlFilename="resources/treeSaplingPallet.xml" />
+    </storeItems>
+ 
+</modDesc>
+

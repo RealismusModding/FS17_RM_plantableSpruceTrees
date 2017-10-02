@@ -14,12 +14,7 @@ registerSpruceTrees.modDir = g_currentModDirectory
 
 addModEventListener(registerSpruceTrees)
 
-function registerSpruceTrees:preLoad()
-
-end
-
 function registerSpruceTrees:loadMap()
-    
     local treeFilenames = {
         registerSpruceTrees.modDir .. "resources/treeSapling.i3d",
         registerSpruceTrees.modDir .. "resources/spruce_stage1.i3d",

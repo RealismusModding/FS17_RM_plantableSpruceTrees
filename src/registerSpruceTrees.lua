@@ -12,8 +12,6 @@ registerSpruceTrees = {}
 local modItem = ModsUtil.findModItemByModName(g_currentModName)
 registerSpruceTrees.modDir = g_currentModDirectory
 
-addModEventListener(registerSpruceTrees)
-
 function registerSpruceTrees:loadMap()
     local treeFilenames = {
         registerSpruceTrees.modDir .. "resources/treeSapling.i3d",
@@ -21,10 +19,10 @@ function registerSpruceTrees:loadMap()
         registerSpruceTrees.modDir .. "resources/spruce_stage2.i3d",
         registerSpruceTrees.modDir .. "resources/spruce_stage3.i3d",
         registerSpruceTrees.modDir .. "resources/spruce_stage4.i3d",
-        registerSpruceTrees.modDir .. "resources/spruce_stage5.i3d"}
+        registerSpruceTrees.modDir .. "resources/spruce_stage5.i3d"
+    }
 
-    TreePlantUtil.registerTreeType("treeSpruce", "Spruce trees", treeFilenames, 240)
-
+    TreePlantUtil.registerTreeType("treeSpruce", "Spruce tree", treeFilenames, 240)
 end
 
 function registerSpruceTrees:load()
@@ -44,3 +42,5 @@ end
 
 function registerSpruceTrees:draw()
 end
+
+addModEventListener(registerSpruceTrees)

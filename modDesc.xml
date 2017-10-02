@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="37">
     <author>Realismus Modding</author>
-    <contributors>reallogger</contributors>
+    <contributors>reallogger, Rahkiin</contributors>
     <version>1.0.0.0</version>
     <title>
-        <en>Plantable Spruce Trees</en>
         <de>Plantable Spruce Trees</de>
         <fr>Plantable Spruce Trees</fr>
         <pl>Plantable Spruce Trees</pl>
         <it>Plantable Spruce Trees</it>
         <hu>Plantable Spruce Trees</hu>
- </title>
- 
- <description>
-    <en><![CDATA[Buyable spruce tree saplings.]]></en>
-    <de><![CDATA[Kaufbare Fichtenbaum Setzlinge.]]></de>
-    <fr><![CDATA[Echantillons d'épinettes achetables]]></fr>
- </description>
+    </title>
 
- <iconFilename>icon.dds</iconFilename>
- <multiplayer supported="true"/>
+    <description>
+        <en><![CDATA[Buyable spruce tree saplings.]]></en>
+        <de><![CDATA[Kaufbare Fichtenbaum Setzlinge.]]></de>
+        <fr><![CDATA[Echantillons d'épinettes achetables]]></fr>
+    </description>
 
- <extraSourceFiles>
-    <sourceFile filename="src/registerSpruceTrees.lua" />
- </extraSourceFiles>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
 
- <l10n>
- </l10n>
+    <extraSourceFiles>
+        <sourceFile filename="src/registerSpruceTrees.lua" />
+    </extraSourceFiles>
+
+    <l10n>
+    </l10n>
 
     <storeItems>
         <storeItem rootNode="fillablePallet" xmlFilename="resources/treeSaplingPallet.xml" />
     </storeItems>
- 
 </modDesc>
 

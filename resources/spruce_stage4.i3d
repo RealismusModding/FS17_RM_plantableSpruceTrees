@@ -6,7 +6,7 @@
   </Asset>
 
   <Files>
-    <File fileId="4" filename="data/maps/textures/sosnovka/treeBranch_diffuse.png" relativePath="false"/>
+    <File fileId="4" filename="data/maps/trees/pineBranch_diffuse.png" relativePath="false"/>
     <File fileId="5" filename="data/maps/trees/pineBranch_normal.png" relativePath="false"/>
     <File fileId="7" filename="data/maps/trees/spruce4LOD_diffuse.png" relativePath="false"/>
     <File fileId="8" filename="data/maps/trees/spruce4LOD_normal.png" relativePath="false"/>

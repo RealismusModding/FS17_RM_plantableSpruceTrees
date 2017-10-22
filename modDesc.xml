@@ -25,6 +25,16 @@
     </extraSourceFiles>
 
     <l10n>
+        <text name="function_spruce_saplings">
+            <en>This pallet of spruce saplings is used to fill the tree planter. The saplings will grow and become large cuttable spruce trees.</en>
+            <de>This pallet of spruce saplings is used to fill the tree planter. The saplings will grow and become large cuttable spruce trees.</de>
+            <fr>This pallet of spruce saplings is used to fill the tree planter. The saplings will grow and become large cuttable spruce trees.</fr>
+        </text>
+        <text name="shopItem_spruceSaplings">
+             <en>Spruce Saplings Pallet</en>
+            <de>Spruce Saplings Pallet</de>
+            <fr>Spruce Saplings Pallet</fr>
+        </text>
     </l10n>
 
     <storeItems>

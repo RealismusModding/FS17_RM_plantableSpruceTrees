@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <object>
     <storeData>
-        <name>$l10n_shopItem_palletSaplings</name>
+        <name>$l10n_shopItem_spruceSaplings</name>
         <functions>
-            <function>$l10n_function_saplingPallet</function>
+            <function>$l10n_function_spruce_saplings</function>
         </functions>
         <image>store_pallet_saplings.png</image>
         <price>35</price>

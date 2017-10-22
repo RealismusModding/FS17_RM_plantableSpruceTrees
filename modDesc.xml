@@ -27,13 +27,13 @@
     <l10n>
         <text name="function_spruce_saplings">
             <en>This pallet of spruce saplings is used to fill the tree planter. The saplings will grow and become large cuttable spruce trees.</en>
-            <de>This pallet of spruce saplings is used to fill the tree planter. The saplings will grow and become large cuttable spruce trees.</de>
+            <de>Cette palette de plants d'épicéas est utilisée pour remplir la planteuse d'arbres. Les jeunes arbres pousseront et deviendront de grands épicéas coupables.</de>
             <fr>This pallet of spruce saplings is used to fill the tree planter. The saplings will grow and become large cuttable spruce trees.</fr>
         </text>
         <text name="shopItem_spruceSaplings">
              <en>Spruce Saplings Pallet</en>
             <de>Spruce Saplings Pallet</de>
-            <fr>Spruce Saplings Pallet</fr>
+            <fr>Palette de plants d'épicéas</fr>
         </text>
     </l10n>
 

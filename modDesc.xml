@@ -21,7 +21,8 @@ German - Amadeo01
 French - Farmer1602
 ]]></credits>
 
-    <iconFilename>icon.dds</iconFilename>
+    <iconFilename>icon.png</iconFilename>
+
     <multiplayer supported="true"/>
 
     <extraSourceFiles>

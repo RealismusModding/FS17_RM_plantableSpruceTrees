@@ -1,8 +1,10 @@
 name: fs17_rm_plantableSpruceTrees
+author: Realismus Modding
 version: 1.0.0.0
+
 zip_name: FS17_RM_plantableSpruceTrees
 
-code: src/
+scripts: src/
 main: src/registerSpruceTrees.lua
 
 resources:

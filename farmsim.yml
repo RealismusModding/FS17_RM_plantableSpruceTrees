@@ -1,0 +1,13 @@
+name: fs17_rm_plantableSpruceTrees
+version: 1.0.0.0
+zip_name: FS17_RM_plantableSpruceTrees
+
+code: src/
+main: src/registerSpruceTrees.lua
+
+resources:
+  - resources/
+  - store_pallet_saplings.dds
+
+release:
+  modhub_id: 93731
